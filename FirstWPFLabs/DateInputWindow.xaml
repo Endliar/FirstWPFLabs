@@ -1,0 +1,17 @@
+﻿<Window x:Class="FirstWPFLabs.DateInputWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FirstWPFLabs"
+        mc:Ignorable="d"
+        Title="DateInputWindow" Height="450" Width="800">
+    <Grid>
+        <ComboBox Name="YearComboBox" SelectionChanged="YearComboBox_SelectionChanged" Margin="36,53,656,329"/>
+        <ComboBox Name="MonthComboBox" SelectionChanged="MonthComboBox_SelectionChanged" Margin="173,53,519,329"/>
+        <ComboBox Name="DayComboBox" SelectionChanged="DayComboBox_SelectionChanged" Margin="315,53,377,329"/>
+        <Label Content="Год" HorizontalAlignment="Left" Margin="36,22,0,0" VerticalAlignment="Top"/>
+        <Label Content="Месяц" HorizontalAlignment="Left" Margin="173,22,0,0" VerticalAlignment="Top"/>
+        <Label Content="Число" HorizontalAlignment="Left" Margin="315,22,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
