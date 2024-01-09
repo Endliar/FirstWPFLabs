@@ -11,6 +11,6 @@
         <Button Content="Добавление строк" HorizontalAlignment="Left" Margin="191,217,0,0" VerticalAlignment="Top" Width="120" Height="35" Click="AddStringButton_Click"/>
         <Button Content="Планеты" HorizontalAlignment="Left" Margin="370,217,0,0" VerticalAlignment="Top" Width="120" Height="35" Click="PlanetChoiceButton_Click"/>
         <Button Content="Даты" HorizontalAlignment="Left" Margin="560,217,0,0" VerticalAlignment="Top" Width="120" Height="35" Click="DateChoiceButton_Click"/>
-        <Button Content="Файлы" HorizontalAlignment="Left" Margin="747,217,0,0" VerticalAlignment="Top" Width="120" Height="35"/>
+        <Button Content="Файлы" HorizontalAlignment="Left" Margin="747,217,0,0" VerticalAlignment="Top" Width="120" Height="35" Click="WorkWithFileButton_Click"/>
     </Grid>
 </Window>

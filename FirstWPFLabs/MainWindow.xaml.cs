@@ -48,5 +48,11 @@ namespace FirstWPFLabs
             DateInputWindow dateInputWindow = new DateInputWindow();
             dateInputWindow.Show();
         }
+
+        private void WorkWithFileButton_Click(object sender, RoutedEventArgs e)
+        {
+            WorkWithFileWindow workWithFileWindow = new WorkWithFileWindow();
+            workWithFileWindow.Show();
+        }
     }
 }
